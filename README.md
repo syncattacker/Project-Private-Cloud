@@ -7,13 +7,21 @@
 - 8 GB RAM
 - 6 CPU Cores
 - 100 GB Disk Space
+- Network Type : Bridged
+
+### Credentials
+
+```
+username : openstack
+password : openstack
+```
 
 ### Commands
 
-> For more information about commands look at the command brief section below. <br /> > **For notes refer to [Documentation.md](https://github.com/syncattacker/OpenStack-Documentation/blob/main/Documentation.md)**
+> For more information about commands look at the command brief section below. <br />
+> **For notes refer to [Documentation.md](https://github.com/syncattacker/OpenStack-Documentation/blob/main/Documentation.md)**
 
 ```
-PASSWORD offsec : kali
 apt update && apt upgrade -y
 apt install net-tools -y
 apt install git -y
@@ -27,7 +35,7 @@ nano local.conf
 ./stack.sh
 ```
 
-#### LOCAL CONFIGURATION CONTENT
+#### LOCAL CONFIGURATION
 
 ```
 [[local|localrc]]
@@ -47,7 +55,8 @@ SERVICE_PASSWORD=$ADMIN_PASSWORD
 
 ## Access The Ova File Here!
 
-Configured Ova for OpenStack [Download Ova](https://drive.google.com/file/d/1bL7N7ip0Ns-2e1WlpkGWlmTTCYKbJLhs/view?usp=sharing)
+> **Note:** The OVA file has been updated. See [CHANGELOG.md](./CHANGELOG.md) for details on why this was done. <br />
+> OpenStack Ubuntu Server OVA v1.0 — [Download OVA](#) _(link coming soon)_
 
 ## Command Briefing
 
