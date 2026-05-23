@@ -99,7 +99,7 @@ Add the following two ingress rules:
 
 The IP address of the Ubuntu host running OpenStack must be **static**. If the host IP is assigned dynamically via DHCP, it can change between sessions, breaking the `br-ex` bridge routing and any host-side routes pointing to the internal instance network.
 
-Set a static IP on your Ubuntu host via your router's DHCP reservation settings or directly in the network configuration (`/etc/netplan/`).
+Set a static IP on your Ubuntu host via your router's DHCP reservation settings.
 
 ---
 
