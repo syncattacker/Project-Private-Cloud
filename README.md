@@ -19,7 +19,7 @@ password : openstack
 ### Commands
 
 > For more information about commands look at the command brief section below. <br />
-> **For notes refer to [Documentation.md](https://github.com/syncattacker/OpenStack-Documentation/blob/main/Documentation.md)**
+> **For notes refer to [Documentation.md](https://github.com/syncattacker/Project-Private-Cloud/blob/main/Documentation.md)**
 
 ```
 apt update && apt upgrade -y

@@ -1,6 +1,6 @@
-# Contributing to [Your Project Name]
+# Contributing to Project Private Cloud
 
-Thank you for your interest in contributing to [Your Project Name]! We appreciate your help and value your contributions. This document provides guidelines on how to contribute to this project.
+Thank you for your interest in contributing to Project Private Cloud! We appreciate your help and value your contributions. This document provides guidelines on how to contribute to this project.
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ To start contributing, follow these steps:
 2. **Clone the Repository**: Clone your forked repository to your local machine:
 
    ```bash
-   git clone https://github.com/syncattacker/OpenStack-Documentation/
+   git clone https://github.com/syncattacker/Project-Private-Cloud
    ```
 
 3. **Create a New Branch**: Before making any changes, create a new branch for your feature or bug fix:
